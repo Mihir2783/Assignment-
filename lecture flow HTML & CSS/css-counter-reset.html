@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: my-sec-counter;
+        }
+        
+        h2::before {
+            counter-increment: my-sec-counter -1;
+            content: "read this line. " counter(my-sec-counter) "... ";
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>MIHIR PATEL</h2>
+    <h2>GTU</h2>
+    <h2>B.E/B.TECH</h2>
+    <h2>3rd YEAR</h2>
+    <h2>EC ENGINEERING</h2>
+    <h2>JOIN IN TOPS INSTITUTE</h2>
+
+</body>
+
+</html>
